@@ -6,17 +6,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { VFXProvider } from 'react-vfx';
 const { Leaves } = require('../src/leaves')
 ReactDOM.render(
   <React.StrictMode>
     {Leaves}
     <VFXProvider>
-      <BrowserRouter>
+      <HashRouter>
         <App />
 
-      </BrowserRouter>
+      </HashRouter>
 
     </VFXProvider>
 
