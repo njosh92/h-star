@@ -12,6 +12,12 @@ import { Link, Switch, Route, Redirect, useHistory, useNavigate } from 'react-ro
 
 const { Leaves } = require('../src/leaves')
 
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('/*', function(req,res) {
+		res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 function App() {
 
 
