@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+            </style>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap');
+                </style>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <link type='text/css' rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+    <div class="container-sm">
+        <div class="form-banner">   
+            <form action="/register" method="post" class="row mb-3">
+                <div class="full_name">
+                    <h2>first name</h2>
+                    <input type="text" name="first_name" class='' id="">
+                    <h2>last name</h2>
+                    <input type="text" name="last_name" id="">
+                    <h2>username</h2>
+                    <input type="text" name="username" id="">
+
+                    <h2>password</h2>
+                    <input type="password" name="password" id="">
+                    <h2>confirm password</h2>
+                    <input type="password" name="confirm_password" id="">
+                    <h2>email</h2>
+                    <input type="text" name="email" id="">
+                </div>
+            <div class="btn"> 
+                <button class='btn-success'>Register!</button>
+            </div>
+            </form>
+            <div class="div">
+                <a class='button-2 btn' href="/">Go Back</a>
+                </div> 
+
+        </div> 
+        
+       
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}            <!-- loop through the messages -->
+                <p style="color: #c76982;">{{message}}</p>                   <!-- display each message in a paragraph tag -->
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+    </div>     
+</body>
+</html>

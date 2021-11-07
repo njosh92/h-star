@@ -1,0 +1,182 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: #afb9c5;
+  text-align: center;
+}
+.body-2{
+ background-color:#060607;
+}
+.container{
+max-width: 960px;
+height: 600px;
+display: block;
+
+margin: 0;
+align-content: center;
+}
+.nav-title{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-color: rgb(189, 131, 131);
+  position: fixed;
+  text-align: center;
+
+  
+
+}
+a{
+  text-decoration: none;
+  color: #f7d3e4;
+  
+}
+li{
+  margin: 0;
+  padding-top: 25px;
+  display: inline-block;
+  display: flex;
+  align-items: flex-start;
+  color: #e3cdb3;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.nav{
+  width: 90%;
+  height: 60px;
+  display: flex;
+  z-index: 2;
+}
+.nav-links{
+justify-content: space-evenly;
+display: flex;
+background-color: black;
+WIDTH:100%;
+text-align: center;
+margin-bottom: 20px;
+}
+.button{
+  border: none;
+  background-color: red;
+  border-radius: 2px;
+  height: 22px;
+  width: 59px;
+  text-decoration: none;
+  color: #060607;
+  margin-left: 20px;
+}
+h2{
+  color:  red;
+  padding-bottom: 15px;
+  font-family: 'Permanent Marker', cursive;
+}
+.banner{
+  width: 100%;
+  height: 400px;
+  margin-top: 15px;
+  top: -20px;
+}
+.banner > img{
+  height: 100%;
+  width: 1300px;
+  margin-left: 70px;
+  padding-top: 85px;
+}
+h1{
+  font-family: 'Tourney', cursive;
+}
+.bottom{
+  width: 100%;
+  outline: solid;
+  display: flex;
+  height: 140px;
+  background-color: #060607 ;
+  justify-content: space-around;
+  margin-top: 140px;
+  margin-left: 250px;
+}
+.img_icons >img{
+  height: 40%;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+h3{
+  color: #e3cdb3;
+  font-family:'Montserrat', sans-serif; 
+}
+.login_title{
+  margin-top: 20px;
+  color: #ad2139
+}
+.password,.email{
+  width: 90%;
+}
+.form-banner{
+  background-color: #25252a;
+  border: none;
+
+  
+}
+.form-banner-2{
+  background-color: #25252a;
+  border: none;
+  height: 400px;
+
+  
+}
+
+form{
+  position: static;
+  left: 150px;
+
+}
+.btn-success{
+  background-color: red;
+  border: #ad2139;
+  color: #060607;
+}
+.btn-danger{
+  margin-top: 14px;
+  color: #060607;
+}
+.login_btn_space{
+  margin-top: 30px;
+}
+
+.button-2{
+  border: none;
+  background-color: #e3cdb3;
+  border-radius: 2px;
+  height: 35px;
+ 
+  text-decoration: none;
+  color: #484e52;
+  
+}
+.button-3{
+  border: none;
+  background-color: red;
+  border-radius: 2px;
+  height: 22px;
+  width: 57px;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+.login_img{
+  display: flex;
+  height: 450px;
+}
+.login-banner > img{
+  height:400px ;
+}

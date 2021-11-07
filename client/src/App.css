@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 1900px;
+  text-align: center;
+  height: 1000px;
+}
+
+.title{
+  color: red;
+  font-size: larger;
+}
+
+
+body {
+  background-color: #afb9c5;
+  height: max-content;
+}
+
+.body-2 {
+  background-image: url('./images/dragon.jpeg');
+  background-position: center;
+  background-position-y: 2;
+  height: max-content;
+  text-align: center;
+  width: inherit;
+  /* margin-top: 100px ; */
+}
+
+.games>img {
+  height: 100px;
+  border: solid;
+  border-color: #060607;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #e3cdb3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.banner {
+  height: 50%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.banner>img {
+  height: 450px;
+  width: 980px
+}
+form{
+  margin-top: 30px;
+}
+.pod-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: auto 0px;
+
+  
+}
+.genre{
+  margin-bottom: 20px;
+  font-size: larger;
+  
+}
+
+.game-box>h3 {
+  color: rgb(0, 255, 217);
+  text-decoration: solid;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px auto;
+  
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.img_icons>img {
+  height: 40%;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+.bottom {
+  width: 800px;
+  outline: solid;
+  display: flex;
+  height: 140px;
+  background-color: #060607;
+  justify-content: space-around;
+  text-align: center;
+  /* position: absolute; */
+  margin: 0px auto;
+}
+.button{
+  outline: solid;
+}
+button {
+  background-color: #f7d3e4;
+  margin-top: 10px;
+
+}
+.btn{
+  color: red;
+  width: 50px;
+  outline: none;
+}
+.btn2{
+  display: block;
+  margin: 0px auto;
+}
+html{
+  background-color: #afb9c5;;
+}
+
+body, #container {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #f7d3e4;
+}
+
+.dot {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background: url(https://pngimage.net/wp-content/uploads/2018/05/cherry-blossom-leaves-png.png);
+  background-size: 100% 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  background-color: #afb9c5;
+}
+.card{
+  background-color: black;
+  margin: 10px;
+  width: 190px;
+  margin-left: 700px;
+
+}
+#logo {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
